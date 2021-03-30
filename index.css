@@ -1,0 +1,10 @@
+.body {
+  width: 100%;
+}
+
+.title,
+.links,
+p,
+h2 {
+  text-align: center;
+}
