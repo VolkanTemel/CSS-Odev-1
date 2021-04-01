@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .body {
   width: 100%;
 }
@@ -5,6 +9,46 @@
 .title,
 .links,
 p,
-h2 {
+h2,
+li {
   text-align: center;
+  list-style-type: none;
+}
+
+.image {
+  height: 300px;
+}
+
+li {
+  border: solid 1px rgb(223, 223, 223);
+  float: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+.list {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button {
+  background-color: rgb(200, 126, 5);
+  color: white;
+  padding: 5px;
+}
+
+.nav {
+  background-color: rgb(200, 126, 5);
+  color: white;
+  padding-bottom: 10px;
 }
